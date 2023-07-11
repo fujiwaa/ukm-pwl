@@ -40,14 +40,16 @@ class Organisasi extends BaseController
             return redirect()->back()->withInput()->with('errors', $validation->getErrors());
         }
 
+        $request = \Config\Services::request();
         // Proses penyimpanan data ke database
         $data = [
-            'nama' => $this->request->getPost('nama'),
-            'nomorhp' => $this->request->getPost('nomorhp'),
-            'email' => $this->request->getPost('email'),
-            'password' => $this->request->getPost('password'),
+            'nama' => $request->getPost('nama'),
+            'nomorhp' => $request->getPost('nomorhp'),
+            'email' => $request->getPost('email'),
+            'role' => $request->getPost('role'),
+            'password' => password_hash($request->getPost('password'), PASSWORD_DEFAULT),
         ];
-        $organisasi = new \App\Models\Organisasi();
+        $organisasi = new \App\Models\Users();
         $organisasi->insert($data);
 
         $session->setFlashdata('message', '<div class="message alert alert-success" role="alert">Selamat akunmu telah terbuat. </div>');
@@ -62,7 +64,7 @@ class Organisasi extends BaseController
         $email = $this->request->getPost('email');
         $password = $this->request->getPost('password');
         
-        $organisasi = new \App\Models\Organisasi();
+        $organisasi = new \App\Models\Users();
         $user = $organisasi->where('email', $email)->first();
         if ($user && password_verify($password, $user['password'])) {
             session()->set('organisasi', $user);

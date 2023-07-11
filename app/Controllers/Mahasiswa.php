@@ -52,9 +52,10 @@ class Mahasiswa extends BaseController
             'nim' => $request->getPost('nim'),
             'nomorhp' => $request->getPost('nomorhp'),
             'email' => $request->getPost('email'),
+            'role' => $request->getPost("role"),
             'password' => password_hash($request->getPost('password'), PASSWORD_DEFAULT),
         ];
-        $mahasiswa = new \App\Models\Mahasiswa();
+        $mahasiswa = new \App\Models\Users();
         $mahasiswa->insert($data);
 
         $session->setFlashdata('message', '<div class="message alert alert-success" role="alert">Selamat akunmu telah terbuat. </div>');
@@ -71,7 +72,7 @@ class Mahasiswa extends BaseController
         $email = $this->request->getPost('email');
         $password = $this->request->getPost('password');
         
-        $mahasiswa = new \App\Models\Mahasiswa();
+        $mahasiswa = new \App\Models\Users();
         $user = $mahasiswa->where('email', $email)->first();
         if ($user && password_verify($password, $user['password'])) {
             session()->set('mahasiswa', $user);

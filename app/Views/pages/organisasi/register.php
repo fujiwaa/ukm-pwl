@@ -55,6 +55,7 @@
         </ul>
     </div>
     <form action="<?= site_url('registerorg') ?>" method="POST">
+      <input type="hidden" name="role" value="organisasi"> 
       <div class="d-flex mt-4">
           <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama Organisasi">
       </div>

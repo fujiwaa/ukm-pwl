@@ -55,23 +55,24 @@
         </ul>
     </div>
     <form action="<?= site_url('registermah') ?>" method="POST">
-    <div class="d-flex mt-4">
-        <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama">
-    </div>
-    <div class="d-flex mt-4">
-        <input type="text" class="form-control" id="nim" name="nim" placeholder="NIM">
-    </div>
-    <div class="d-flex mt-4">
-        <input type="number" class="form-control" id="nomorhp" name="nomorhp" placeholder="No. Handphone">
-    </div>
-    <div class="d-flex mt-4">
-        <input type="email" class="form-control" id="email" name="email" placeholder="Email">
-    </div>
-    <div class="d-flex mt-4">
-        <input type="password" class="form-control" id="password" name="password" placeholder="Password">
-    </div>
-    <button class="d-flex fs-4 rounded-pill border border-light">Daftar</button>
-    <p class="text-end mt-4">Sudah punya akun? <span><a href="<?= base_url('login/mahasiswa') ?>" class="text-light text-decoration-none">Masuk</a></span></p>
+      <input type="hidden" name="role" value="mahasiswa">
+      <div class="d-flex mt-4">
+          <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama">
+      </div>
+      <div class="d-flex mt-4">
+          <input type="text" class="form-control" id="nim" name="nim" placeholder="NIM">
+      </div>
+      <div class="d-flex mt-4">
+          <input type="number" class="form-control" id="nomorhp" name="nomorhp" placeholder="No. Handphone">
+      </div>
+      <div class="d-flex mt-4">
+          <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+      </div>
+      <div class="d-flex mt-4">
+          <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+      </div>
+      <button class="d-flex fs-4 rounded-pill border border-light">Daftar</button>
+      <p class="text-end mt-4">Sudah punya akun? <span><a href="<?= base_url('login/mahasiswa') ?>" class="text-light text-decoration-none">Masuk</a></span></p>
     </form>
     <?php if (session()->getFlashdata('errors')) : ?>
       <div style="color: red;">
