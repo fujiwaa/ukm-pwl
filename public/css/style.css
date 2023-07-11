@@ -1,0 +1,138 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #2e77c3;
+}
+
+#home .container {
+  width: 30%;
+  height: 600px;
+  margin-top: 300px;
+  margin-left: 300px;
+}
+
+.logo-amikom {
+  margin-left: 150px;
+}
+
+.navbar {
+  width: 550px;
+}
+
+.navbar .container-fluid {
+  background-color: #2e77c3;
+}
+
+.pesawat {
+  margin-bottom: 180px;
+  margin-right: 680px;
+}
+
+.nav-item {
+  margin-right: 30px;
+}
+
+.aksi {
+  margin-right: 150px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.daftar {
+  border: solid;
+  border-color: white;
+  background: white;
+  text-color: #2e77c3;
+}
+
+.masuk {
+  border: solid;
+  border-color: #2e77c3;
+  background-color: #2e77c3;
+}
+
+.tombol-start {
+  background-color: #d9d9d9;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.form-login {
+  margin-top: 200px;
+}
+
+.pilihan {
+  margin-top: 200px;
+}
+
+.pilihan a {
+  background-color: #d9d9d9;
+  padding-right: 60px;
+  padding-left: 60px;
+  margin-right: 20px;
+}
+
+.organisasi {
+  width: 50%;
+  margin-top: 150px;
+}
+
+.organisasi img {
+  width: 100px;
+  height: 100px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.news {
+  width: 75%;
+  margin-top: 150px;
+}
+
+.card-news {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.form-login .mah {
+  background-color: white;
+  text-color: #2e77c3;
+}
+
+.form-login .org {
+  background-color: white;
+  text-color: #2e77c3;
+}
+
+.judul-login {
+  margin-right: 80px;
+  font-size: 50px;
+}
+
+.sub-judul {
+  margin-right: 95px;
+}
+
+.form-login input {
+  margin-left: 780px;
+}
+
+.form-login button {
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top: 50px;
+  margin-left: 930px;
+}
+
+.form-login p {
+  margin-right: 155px;
+}
+
+.message {
+  margin-left: 780px;
+}
+
+.error {
+  margin-left: 780px;
+}
