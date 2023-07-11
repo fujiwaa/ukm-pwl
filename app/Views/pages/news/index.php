@@ -44,6 +44,9 @@
 <div class="news container">
     <h1 class="fs-1 text-center text-light">NEWS</h1>
     <h2 class="fs-2 mt-5 text-start text-light">Berita Utama</h2>
+    <?php if (session()->get('users')['role'] === 'organisasi') : ?>
+      <a class="btn btn-success my-3" href="#" role="button">Tambah News</a>
+    <?php endif; ?>
     <div class="justify-content-start">
         <div class="card-news card mb-3">
             <div class="row g-0">

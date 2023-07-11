@@ -35,6 +35,7 @@ $routes->get('register/mahasiswa', 'Mahasiswa::index');
 $routes->post('registermah', 'Mahasiswa::create');
 $routes->get('login/mahasiswa', 'Mahasiswa::login');
 $routes->post('loginmah', 'Mahasiswa::auth');
+$routes->get('logout', 'Home::logout');
 
 $routes->get('register/organisasi', 'Organisasi::index');
 $routes->post('registerorg', 'Organisasi::create');

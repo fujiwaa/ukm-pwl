@@ -39,6 +39,11 @@
     </div>
   </div>
 </nav>
+<ul class="aksi d-flex position-fixed top-0 end-0 mt-2 justify-content-end">
+  <li class="text-center px-4 ">
+    <a href="<?php echo base_url('logout'); ?>" class="btn btn-danger shadow px-4 py-1 position-relative text-decoration-none fs-5 fw-semibold rounded-pill">Logout</a>
+  </li>
+</ul>
 
 <div class="container position-absolute text-center">
   <h1 class="text-white fs-1">Start Your Actifity</h1>
