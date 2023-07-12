@@ -40,10 +40,14 @@
 </nav>
 
 <div class="organisasi container">
+<a class="back d-flex justify-content-start" href="<?= base_url('profil') ?>">
+        <svg class="svg-inline--fa fa-caret-left fa-3x" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M9.4 278.6c-12.5-12.5-12.5-32.8 0-45.3l128-128c9.2-9.2 22.9-11.9 34.9-6.9s19.8 16.6 19.8 29.6l0 256c0 12.9-7.8 24.6-19.8 29.6s-25.7 2.2-34.9-6.9l-128-128z"></path>
+    </svg>
+    </a>
     <h1 class="fs-1 text-center text-light">KOMUNITAS</h1>
     <div class="row mt-4 justify-content-center">
       <div class="col-lg-2 col-sm-6">
-        <a class="text-decoration-none text-dark" href="">
+        <a class="text-decoration-none text-dark" href="<?= base_url('komunitas/avc') ?>">
           <div class="item">
             <img src="<?= base_url('img/komunitas/avc.png') ?>" alt="avc">
             <div class="text-center mt-2">
@@ -53,7 +57,7 @@
         </a>
       </div>
       <div class="col-lg-2 col-sm-6">
-        <a class="text-decoration-none text-dark" href="">
+        <a class="text-decoration-none text-dark" href="<?= base_url('komunitas/asbc') ?>">
           <div class="item">
           <img src="<?= base_url('img/komunitas/asbc.png') ?>" alt="asbc">
             <div class="text-center mt-2">
@@ -63,7 +67,7 @@
         </a>
       </div>
       <div class="col-lg-2 col-sm-6">
-        <a class="text-decoration-none text-dark" href="">
+        <a class="text-decoration-none text-dark" href="<?= base_url('komunitas/avbc') ?>">
           <div class="item">
           <img src="<?= base_url('img/komunitas/avbc.png') ?>" alt="avbc">
             <div class="text-center mt-2">
@@ -73,7 +77,7 @@
         </a>
       </div>
       <div class="col-lg-2 col-sm-6">
-        <a class="text-decoration-none text-dark" href="">
+        <a class="text-decoration-none text-dark" href="<?= base_url('komunitas/hexa') ?>">
           <div class="item">
           <img src="<?= base_url('img/komunitas/hexa.png') ?>" alt="hexa">
             <div class="text-center mt-2">
@@ -83,7 +87,7 @@
         </a>
       </div>
       <div class="col-lg-2 col-sm-6">
-        <a class="text-decoration-none text-dark" href="">
+        <a class="text-decoration-none text-dark" href="<?= base_url('komunitas/pramuka') ?>">
           <div class="item">
           <img src="<?= base_url('img/komunitas/pramuka.png') ?>" alt="pramuka">
             <div class="text-center mt-2">
