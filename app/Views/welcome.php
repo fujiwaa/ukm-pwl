@@ -24,7 +24,7 @@
           <a class="nav-link text-white" aria-current="page" href="">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="profil">Profil</a>
+          <a class="nav-link text-white" href="profil">Orma</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-white" href="news">News</a>

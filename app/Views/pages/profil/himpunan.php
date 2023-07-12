@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Profil</title>
+    <title>UKM</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="<?= base_url('css/style.css'); ?>">
@@ -13,7 +13,7 @@
 <body>
 
 <!-- Navbar -->
-<section id="profil">
+<section id="news">
   <img src="<?= base_url('img/amikom.png') ?>" alt="Amikom" class="logo-amikom position-fixed start-0 mt-2">
 <nav class="navbar navbar-expand-lg position-relative flex mx-auto p-0">
   <div class="container-fluid shadow rounded-bottom-4">
@@ -23,13 +23,13 @@
           <a class="nav-link text-white" aria-current="page" href="<?= base_url('home') ?>">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark" href="">Profil</a>
+          <a class="nav-link text-dark" href="">Orma</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">News</a>
+          <a class="nav-link text-white" href="<?= base_url('news') ?>">News</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">Layanan</a>
+          <a class="nav-link text-white" href="<?= base_url('layanan') ?>">Layanan</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-white" href="#">FAQ</a>
@@ -40,17 +40,158 @@
 </nav>
 
 <div class="organisasi container">
-    <h1 class="fs-1 text-center text-light">ORGANISASI</h1>
-    <div class="justify-content-center">
-        <img src="<?= base_url('img/himpunan/himaditi.png') ?>" alt="himaditi">
-        <img src="<?= base_url('img/himpunan/hmif.png') ?>" alt="hmif">
-        <img src="<?= base_url('img/himpunan/hime.png') ?>" alt="hime">
-        <img src="<?= base_url('img/himpunan/himika.png') ?>" alt="himika">
-        <img src="<?= base_url('img/himpunan/himti.png') ?>" alt="himti">
-        <img src="<?= base_url('img/himpunan/himwira.png') ?>" alt="himwira">
-        <img src="<?= base_url('img/himpunan/himasi.png') ?>" alt="himasi">
-        <img src="<?= base_url('img/himpunan/himpwk.png') ?>" alt="himpwk">
-        <img src="<?= base_url('img/himpunan/himga.jpg') ?>" alt="himga">
+    <h1 class="fs-1 text-center text-light">HIMPUNAN</h1>
+    <div class="row mt-4 justify-content-center">
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+            <img src="<?= base_url('img/himpunan/himaditi.png') ?>" alt="himaditi">
+            <div class="text-center mt-3">
+              <h6 class="fw-semibold">HIMADITI</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/himpunan/himasi.png') ?>" alt="himasi">
+            <div class="text-center mt-3">
+              <h6 class="fw-semibold">HIMASI</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/himpunan/himika.png') ?>" alt="himika">
+            <div class="text-center mt-3">
+              <h6 class="fw-semibold">HIMIKA</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/himpunan/himmi.png') ?>" alt="himmi">
+            <div class="text-center mt-3">
+              <h6 class="fw-semibold">HIMMI</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/himpunan/himpwk.png') ?>" alt="himpwk">
+            <div class="text-center mt-3">
+              <h6 class="fw-semibold">HIMPWK</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/himpunan/himti.png') ?>" alt="himti">
+            <div class="text-center mt-3">
+              <h6 class="fw-semibold">HIMTI</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/himpunan/himwira.png') ?>" alt="himwira">
+            <div class="text-center mt-3">
+              <h6 class="fw-semibold">HIMWIRA</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/himpunan/hmif.png') ?>" alt="hmif">
+            <div class="text-center mt-3">
+              <h6 class="fw-semibold">HMIF</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/himpunan/hime.png') ?>" alt="hime">
+            <div class="text-center mt-3">
+              <h6 class="fw-semibold">HIME</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/himpunan/himaksi.png') ?>" alt="himaksi">
+            <div class="text-center mt-3">
+              <h6 class="fw-semibold">HIMAKSI</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/himpunan/himga.jpg') ?>" alt="himga">
+            <div class="text-center mt-3">
+              <h6 class="fw-semibold">HIMGA</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/himpunan/himtekk.png') ?>" alt="himtekk">
+            <div class="text-center mt-3">
+              <h6 class="fw-semibold">HIMTEKK</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/himpunan/himip.jpg') ?>" alt="himmip">
+            <div class="text-center mt-3">
+              <h6 class="fw-semibold">HIMIP</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/himpunan/komahi.jpg') ?>" alt="komahi">
+            <div class="text-center mt-3">
+              <h6 class="fw-semibold">KOMAHI</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/himpunan/pastuvena.png') ?>" alt="pastuvena">
+            <div class="text-center mt-3">
+              <h6 class="fw-semibold">PASTUVENA</h6>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
 </div>
 
