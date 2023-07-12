@@ -54,7 +54,7 @@ $routes->get('ukm/amo', 'Ukm::amo');
 $routes->get('ukm/koma', 'Ukm::koma');
 $routes->get('ukm/mayapala', 'Ukm::mayapala');
 $routes->get('ukm/ikna', 'Ukm::ikna');
-$routes->get('ukm/ukijashtis', 'Ukm::ukijashtis');
+$routes->get('ukm/ukijasthis', 'Ukm::ukijasthis');
 $routes->get('ukm/taekwondo', 'Ukm::taekwondo');
 $routes->get('ukm/manggar', 'Ukm::manggar');
 $routes->get('ukm/fossil', 'Ukm::fossil');
@@ -65,6 +65,29 @@ $routes->get('ukm/pencaksilat', 'Ukm::pencaksilat');
 $routes->get('bso/abbc', 'Bso::abbc');
 $routes->get('bso/onegai', 'Bso::onegai');
 $routes->get('bso/afc', 'Bso::afc');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$routes->get('komunitas/avc', 'Komunitas::avc');
+$routes->get('komunitas/asbc', 'Komunitas::asbc');
+$routes->get('komunitas/avbc', 'Komunitas::avbc');
+$routes->get('komunitas/hexa', 'Komunitas::hexa');
+$routes->get('komunitas/pramuka', 'Komunitas::pramuka');
 
 $routes->get('news', 'News::index');
 
