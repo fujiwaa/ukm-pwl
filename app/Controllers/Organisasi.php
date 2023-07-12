@@ -67,8 +67,12 @@ class Organisasi extends BaseController
         $organisasi = new \App\Models\Users();
         $user = $organisasi->where('email', $email)->first();
         if ($user && password_verify($password, $user['password'])) {
-            session()->set('organisasi', $user);
-            return redirect()->to('home');
+            session()->set('users', $user);
+            if ($user['role'] == 'organisasi') {
+                return redirect()->to('home');
+            } else {
+                return redirect()->to('home');
+            }
         } else {
             session()->setFlashdata('errors', '<div class="error alert alert-danger" role="alert">Invalid email or password.</div>');
             return redirect()->to('login/organisasi');

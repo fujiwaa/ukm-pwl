@@ -12,4 +12,9 @@ class Home extends BaseController
     {
         return view('pages/home');
     }
+    public function logout()
+    {
+        session()->remove('id');
+        return redirect()->to('/');
+    }
 }

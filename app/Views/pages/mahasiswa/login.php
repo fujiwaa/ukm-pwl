@@ -54,7 +54,10 @@
             </li>
         </ul>
     </div>
-    <form action="<?= site_url('loginmah') ?>" method="POST">
+    <form action="<?= site_url('loginorg') ?>" method="POST">
+      <?php if (('role') === 'organisasi' ): return ?>
+
+      <?php endif; ?>
       <div class="d-flex mt-4">
           <input type="email" class="form-control" id="email" name="email" placeholder="Email">
       </div>
