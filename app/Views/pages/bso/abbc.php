@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BSO</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="<?= base_url('css/style.css'); ?>">
@@ -39,43 +40,33 @@
   </div>
 </nav>
 
-<div class="organisasi container">
-  <a class="back d-flex justify-content-start" href="<?= base_url('profil') ?>">
+<div class="organisasi container justify-content-center">
+    <a class="back d-flex justify-content-start" href="<?= base_url('bso') ?>">
         <svg class="svg-inline--fa fa-caret-left fa-3x" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M9.4 278.6c-12.5-12.5-12.5-32.8 0-45.3l128-128c9.2-9.2 22.9-11.9 34.9-6.9s19.8 16.6 19.8 29.6l0 256c0 12.9-7.8 24.6-19.8 29.6s-25.7 2.2-34.9-6.9l-128-128z"></path>
     </svg>
     </a>
-    <h1 class="fs-1 text-center text-light">BSO</h1>
-    <div class="row mt-4 justify-content-center">
-      <div class="col-lg-2 col-sm-6">
-        <a class="text-decoration-none text-dark" href="<?= base_url('bso/abbc') ?>">
-          <div class="item">
-            <img src="<?= base_url('img/bso/abbc.jpg') ?>" alt="abbc">
-            <div class="text-center mt-2">
-              <h6 class="fw-semibold">ABBC</h6>
+    <div class="row mt-3">
+        <div class="col-md-6">
+            <div class="image-org text-center">
+                <img src="<?= base_url('img/bso/abbc.jpg') ?>" alt="abbc">
+                <div class="text-center mt-2">
+                    <h6 class="mt-4 fs-2 fw-semibold">ABBC</h6>
+                </div>
             </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-lg-2 col-sm-6">
-        <a class="text-decoration-none text-dark" href="<?= base_url('bso/onegai') ?>">
-          <div class="item">
-          <img src="<?= base_url('img/bso/onegai.png') ?>" alt="onegai">
-            <div class="text-center mt-2">
-              <h6 class="fw-semibold">ONEGAI</h6>
+        </div>
+        <div class="col-md-6">
+            <div class="desc-org">
+                <p>AMIKOM BASKETBALL CLUB (ABBC) adalah organisasi yang bertujuan menjadikan suatu wadah untuk mahasiswa di Universitas Amikom Yogyakarta yang memiliki hobby maupun potensi di olahraga basket untuk bisa lebih dikembangkan lagi kedepannya. ABBC ini di bentuk sekitar pada tahun 2003 dan masih aktif hingga saat ini.</p>
+                <div class="d-flex justify-content-center mt-4">
+                    <h3>Basement 4</h3>
+                    <h3 class="ms-5">No. 22</h3>
+                </div>  
+                <div class="contact text-center">
+                    <a href="#"><i class="bi bi-instagram" style="font-size: 32px;"></i></a>
+                    <a href="#"><i class="bi bi-whatsapp ms-3" style="font-size: 32px;"></i></a> 
+                </div>       
             </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-lg-2 col-sm-6">
-        <a class="text-decoration-none text-dark" href="<?= base_url('bso/afc') ?>">
-          <div class="item">
-          <img src="<?= base_url('img/bso/afc.png') ?>" alt="afc">
-            <div class="text-center mt-2">
-              <h6 class="fw-semibold">AFC</h6>
-            </div>
-          </div>
-        </a>
-      </div>
+        </div>
     </div>
 </div>
 

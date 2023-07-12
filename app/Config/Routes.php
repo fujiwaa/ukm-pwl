@@ -62,6 +62,10 @@ $routes->get('ukm/journal', 'Ukm::journal');
 $routes->get('ukm/kempo', 'Ukm::kempo');
 $routes->get('ukm/pencaksilat', 'Ukm::pencaksilat');
 
+$routes->get('bso/abbc', 'Bso::abbc');
+$routes->get('bso/onegai', 'Bso::onegai');
+$routes->get('bso/afc', 'Bso::afc');
+
 $routes->get('news', 'News::index');
 
 
