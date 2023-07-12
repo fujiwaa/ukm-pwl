@@ -67,7 +67,7 @@
         </a>
       </div>
       <div class="col-lg-2 col-sm-6">
-        <a class="text-decoration-none text-dark" href="">
+        <a class="text-decoration-none text-dark" href="<?= base_url('ukm/amo') ?>">
           <div class="item">
           <img src="<?= base_url('img/ukm/amo.png') ?>" alt="amo">
             <div class="text-center mt-2">
@@ -77,7 +77,7 @@
         </a>
       </div>
       <div class="col-lg-2 col-sm-6">
-        <a class="text-decoration-none text-dark" href="">
+        <a class="text-decoration-none text-dark" href="<?= base_url('ukm/koma') ?>">
           <div class="item">
           <img src="<?= base_url('img/ukm/koma.png') ?>" alt="koma">
             <div class="text-center mt-2">
@@ -87,7 +87,7 @@
         </a>
       </div>
       <div class="col-lg-2 col-sm-6">
-        <a class="text-decoration-none text-dark" href="">
+        <a class="text-decoration-none text-dark" href="<?= base_url('ukm/mayapala') ?>">
           <div class="item">
           <img src="<?= base_url('img/ukm/mayapala.png') ?>" alt="mayapala">
             <div class="text-center mt-2">
@@ -97,7 +97,7 @@
         </a>
       </div>
       <div class="col-lg-2 col-sm-6">
-        <a class="text-decoration-none text-dark" href="">
+        <a class="text-decoration-none text-dark" href="<?= base_url('ukm/ikna') ?>">
           <div class="item">
           <img src="<?= base_url('img/ukm/ikna.png') ?>" alt="ikna">
             <div class="text-center mt-2">
@@ -107,17 +107,17 @@
         </a>
       </div>
       <div class="col-lg-2 col-sm-6">
-        <a class="text-decoration-none text-dark" href="">
+        <a class="text-decoration-none text-dark" href="<?= base_url('ukm/ukijashtis') ?>">
           <div class="item">
-          <img src="<?= base_url('img/ukm/uki-jasthis.png') ?>" alt="uki jasthis">
+          <img src="<?= base_url('img/ukm/uki-jasthis.png') ?>" alt="uki jashtis">
             <div class="text-center mt-2">
-              <h6 class="fw-semibold">UKI JASTHIS</h6>
+              <h6 class="fw-semibold">UKI JASHTIS</h6>
             </div>
           </div>
         </a>
       </div>
       <div class="col-lg-2 col-sm-6">
-        <a class="text-decoration-none text-dark" href="">
+        <a class="text-decoration-none text-dark" href="<?= base_url('ukm/taekwondo') ?>">
           <div class="item">
           <img src="<?= base_url('img/ukm/tkd.png') ?>" alt="taekwondo">
             <div class="text-center mt-2">
@@ -127,7 +127,7 @@
         </a>
       </div>
       <div class="col-lg-2 col-sm-6">
-        <a class="text-decoration-none text-dark" href="">
+        <a class="text-decoration-none text-dark" href="<?= base_url('ukm/manggar') ?>">
           <div class="item">
           <img src="<?= base_url('img/ukm/manggar.png') ?>" alt="manggar">
             <div class="text-center mt-2">
@@ -137,7 +137,7 @@
         </a>
       </div>
       <div class="col-lg-2 col-sm-6">
-        <a class="text-decoration-none text-dark" href="">
+        <a class="text-decoration-none text-dark" href="<?= base_url('ukm/fossil') ?>">
           <div class="item">
           <img src="<?= base_url('img/ukm/fossil.png') ?>" alt="fossil">
             <div class="text-center mt-2">
@@ -147,7 +147,7 @@
         </a>
       </div>
       <div class="col-lg-2 col-sm-6">
-        <a class="text-decoration-none text-dark" href="">
+        <a class="text-decoration-none text-dark" href="<?= base_url('ukm/journal') ?>">
           <div class="item">
           <img src="<?= base_url('img/ukm/lpm-journal.png') ?>" alt="lpm journal">
             <div class="text-center mt-2">
@@ -157,7 +157,7 @@
         </a>
       </div>
       <div class="col-lg-2 col-sm-6">
-        <a class="text-decoration-none text-dark" href="">
+        <a class="text-decoration-none text-dark" href="<?= base_url('ukm/kempo') ?>">
           <div class="item">
           <img src="<?= base_url('img/ukm/kempo.png') ?>" alt="kempo">
             <div class="text-center mt-2">
@@ -167,7 +167,7 @@
         </a>
       </div>
       <div class="col-lg-2 col-sm-6">
-        <a class="text-decoration-none text-dark" href="">
+        <a class="text-decoration-none text-dark" href="<?= base_url('ukm/pencaksilat') ?>">
           <div class="item">
           <img src="<?= base_url('img/ukm/pencak-silat.png') ?>" alt="pencak silat">
             <div class="text-center mt-2">

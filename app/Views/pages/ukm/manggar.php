@@ -48,18 +48,18 @@
     <div class="row mt-3">
         <div class="col-md-6">
             <div class="image-org text-center">
-                <img src="<?= base_url('img/ukm/amo.png') ?>" alt="amo">
+                <img src="<?= base_url('img/ukm/manggar.png') ?>" alt="manggar">
                 <div class="text-center mt-2">
-                    <h6 class="mt-4 fs-2 fw-semibold">AMO</h6>
+                    <h6 class="mt-4 fs-2 fw-semibold">MANGGAR</h6>
                 </div>
             </div>
         </div>
         <div class="col-md-6">
             <div class="desc-org">
-                <p>AMO adalah salah satu Unit Kegiatan Mahasiswa Universitas Amikom Yogyakarta yang terbentuk sejak tahun 2004 dengan arah gerak yang berfokus pada bidang musik dan event organizing. AMO terdiri atas 2 divisi yaitu Divisi Musik dan Event Organizer. AMO juga tergabung dalam Forum Komunikasi UKM Musik Yogyakarta (FKUKMMY).</p>
+                <p>Teater “MANGGAR” merupakan organisasi kemahasiswaan yang berada dalam struktur kelembagaan Universitas AMIKOM Yogyakarta. Memiliki sifat kesenian yang mengutamakan kreatifitas. Teater “MANGGAR” berasaskan pada profesionalitas, komunikasi, kemandirian dan kekeluargaan.</p>
                 <div class="d-flex justify-content-center mt-4">
                     <h3>Basement 5</h3>
-                    <h3 class="ms-5">No. 17</h3>
+                    <h3 class="ms-5">No. 16</h3>
                 </div>  
                 <div class="contact text-center">
                     <a href="#"><i class="bi bi-instagram" style="font-size: 32px;"></i></a>

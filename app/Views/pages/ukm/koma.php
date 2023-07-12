@@ -48,18 +48,18 @@
     <div class="row mt-3">
         <div class="col-md-6">
             <div class="image-org text-center">
-                <img src="<?= base_url('img/ukm/amo.png') ?>" alt="amo">
+                <img src="<?= base_url('img/ukm/koma.png') ?>" alt="koma">
                 <div class="text-center mt-2">
-                    <h6 class="mt-4 fs-2 fw-semibold">AMO</h6>
+                    <h6 class="mt-4 fs-2 fw-semibold">KOMA</h6>
                 </div>
             </div>
         </div>
         <div class="col-md-6">
             <div class="desc-org">
-                <p>AMO adalah salah satu Unit Kegiatan Mahasiswa Universitas Amikom Yogyakarta yang terbentuk sejak tahun 2004 dengan arah gerak yang berfokus pada bidang musik dan event organizing. AMO terdiri atas 2 divisi yaitu Divisi Musik dan Event Organizer. AMO juga tergabung dalam Forum Komunikasi UKM Musik Yogyakarta (FKUKMMY).</p>
+                <p>KOMA atau Komunitas Multimedia Amikom merupakan Unit Kegiatan Mahasiswa di Universitas Amikom Yogyakarta yang bergerak dibidang multimedia. KOMA didirikan pada tanggal 27 Mei 2001 sebagai wadah untuk menampung mahasiswa Universitas Amikom Yogyakarta yang mempunyai minat dan bakat dalam bidang multimedia sehingga dapat terasah kemampuannya dalam menghasilkan karya tanpa batas dan menjadi creator multimedia yang handal.</p>
                 <div class="d-flex justify-content-center mt-4">
                     <h3>Basement 5</h3>
-                    <h3 class="ms-5">No. 17</h3>
+                    <h3 class="ms-5">No. 12</h3>
                 </div>  
                 <div class="contact text-center">
                     <a href="#"><i class="bi bi-instagram" style="font-size: 32px;"></i></a>

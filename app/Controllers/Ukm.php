@@ -34,9 +34,9 @@ class Ukm extends BaseController
         return view('pages/ukm/ikna');
     }
 
-    public function ukijasthis()
+    public function ukijashtis()
     {
-        return view('pages/ukm/ukijasthis');
+        return view('pages/ukm/ukijashtis');
     }
 
     public function taekwondo()

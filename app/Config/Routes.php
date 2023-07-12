@@ -54,7 +54,7 @@ $routes->get('ukm/amo', 'Ukm::amo');
 $routes->get('ukm/koma', 'Ukm::koma');
 $routes->get('ukm/mayapala', 'Ukm::mayapala');
 $routes->get('ukm/ikna', 'Ukm::ikna');
-$routes->get('ukm/ukijasthis', 'Ukm::ukijasthis');
+$routes->get('ukm/ukijashtis', 'Ukm::ukijashtis');
 $routes->get('ukm/taekwondo', 'Ukm::taekwondo');
 $routes->get('ukm/manggar', 'Ukm::manggar');
 $routes->get('ukm/fossil', 'Ukm::fossil');
