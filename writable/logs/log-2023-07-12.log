@@ -1,3 +1,4 @@
+
 CRITICAL - 2023-07-12 15:41:43 --> Invalid file: "pages/bso/himaditi.php"
 in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
  1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/bso/himaditi.php')
@@ -18,3 +19,18 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
  6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
  8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\pwl-project\\public\\index.php')
+
+INFO - 2023-07-12 14:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 14:57:46 --> Trying to access array offset on value of type null
+in APPPATH\Views\pages\news\index.php on line 47.
+ 1 APPPATH\Views\pages\news\index.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\ukm-pwl\\app\\Views\\pages\\news\\index.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\ukm-pwl\\app\\Views\\pages\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/news/index', [], true)
+ 5 APPPATH\Controllers\News.php(9): view('pages/news/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\ukm-pwl\\public\\index.php')
+
