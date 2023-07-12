@@ -19,4 +19,13 @@ class Profil extends BaseController
         return view('pages/profil/himpunan');
     }
 
+    public function bso()
+    {
+        return view('pages/profil/bso');
+    }
+    
+    public function komunitas()
+    {
+        return view('pages/profil/komunitas');
+    }
 }

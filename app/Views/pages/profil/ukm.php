@@ -23,7 +23,7 @@
           <a class="nav-link text-white" aria-current="page" href="<?= base_url('home') ?>">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark" href="">Profil</a>
+          <a class="nav-link text-dark" href="">Orma</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-white" href="<?= base_url('news') ?>">News</a>
@@ -40,20 +40,142 @@
 </nav>
 
 <div class="organisasi container">
+    <a class="back d-flex justify-content-start" href="<?= base_url('profil') ?>">
+        <svg class="svg-inline--fa fa-caret-left fa-3x" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M9.4 278.6c-12.5-12.5-12.5-32.8 0-45.3l128-128c9.2-9.2 22.9-11.9 34.9-6.9s19.8 16.6 19.8 29.6l0 256c0 12.9-7.8 24.6-19.8 29.6s-25.7 2.2-34.9-6.9l-128-128z"></path>
+    </svg>
+    </a>
     <h1 class="fs-1 text-center text-light">UKM</h1>
-    <div class="justify-content-center">
-        <img src="<?= base_url('img/ukm/amcc.png') ?>" alt="amcc">
-        <img src="<?= base_url('img/ukm/aec.png') ?>" alt="aec">
-        <img src="<?= base_url('img/ukm/abbc.jpg') ?>" alt="abbc">
-        <img src="<?= base_url('img/ukm/asbc.png') ?>" alt="asbc">
-        <img src="<?= base_url('img/ukm/avbc.png') ?>" alt="avbc">
-        <img src="<?= base_url('img/ukm/avc.png') ?>" alt="avc">
-        <img src="<?= base_url('img/ukm/amo.png') ?>" alt="amo">
-        <img src="<?= base_url('img/ukm/tkd.png') ?>" alt="tkd">
-        <img src="<?= base_url('img/ukm/koma.png') ?>" alt="koma">
-        <img src="<?= base_url('img/ukm/mayapala.png') ?>" alt="mayapala">
-        <img src="<?= base_url('img/ukm/onegai.png') ?>" alt="onegai">
-        <img src="<?= base_url('img/ukm/pencak-silat.png') ?>" alt="pencak silat">
+    <div class="row mt-4 justify-content-center">
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="<?= base_url('ukm/amcc') ?>">
+          <div class="item">
+            <img src="<?= base_url('img/ukm/amcc.png') ?>" alt="amcc">
+            <div class="text-center mt-2">
+              <h6 class="fw-semibold">AMCC</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="<?= base_url('ukm/aec') ?>">
+          <div class="item">
+          <img src="<?= base_url('img/ukm/aec.png') ?>" alt="aec">
+            <div class="text-center mt-2">
+              <h6 class="fw-semibold">AEC</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/ukm/amo.png') ?>" alt="amo">
+            <div class="text-center mt-2">
+              <h6 class="fw-semibold">AMO</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/ukm/koma.png') ?>" alt="koma">
+            <div class="text-center mt-2">
+              <h6 class="fw-semibold">KOMA</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/ukm/mayapala.png') ?>" alt="mayapala">
+            <div class="text-center mt-2">
+              <h6 class="fw-semibold">MAYAPALA</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/ukm/ikna.png') ?>" alt="ikna">
+            <div class="text-center mt-2">
+              <h6 class="fw-semibold">IKNA</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/ukm/uki-jasthis.png') ?>" alt="uki jasthis">
+            <div class="text-center mt-2">
+              <h6 class="fw-semibold">UKI JASTHIS</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/ukm/tkd.png') ?>" alt="taekwondo">
+            <div class="text-center mt-2">
+              <h6 class="fw-semibold">TAEKWONDO</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/ukm/manggar.png') ?>" alt="manggar">
+            <div class="text-center mt-2">
+              <h6 class="fw-semibold">MANGGAR</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/ukm/fossil.png') ?>" alt="fossil">
+            <div class="text-center mt-2">
+              <h6 class="fw-semibold">FOSSIL</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/ukm/lpm-journal.png') ?>" alt="lpm journal">
+            <div class="text-center mt-2">
+              <h6 class="fw-semibold">JOURNAL</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/ukm/kempo.png') ?>" alt="kempo">
+            <div class="text-center mt-2">
+              <h6 class="fw-semibold">KEMPO</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/ukm/pencak-silat.png') ?>" alt="pencak silat">
+            <div class="text-center mt-2">
+              <h6 class="fw-semibold">PENCAK SILAT</h6>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
 </div>
 

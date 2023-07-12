@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>UKM</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="<?= base_url('css/style.css'); ?>">
@@ -13,38 +13,66 @@
 <body>
 
 <!-- Navbar -->
-<section id="home">
-  <img src="<?= base_url('img/home.png') ?>" alt="Home" class="position-absolute top-0 bottom-0 end-0 z-0 mb-5">
+<section id="news">
   <img src="<?= base_url('img/amikom.png') ?>" alt="Amikom" class="logo-amikom position-fixed start-0 mt-2">
 <nav class="navbar navbar-expand-lg position-relative flex mx-auto p-0">
   <div class="container-fluid shadow rounded-bottom-4">
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item">
-          <a class="nav-link text-dark" aria-current="page" href="#">Home</a>
+          <a class="nav-link text-white" aria-current="page" href="<?= base_url('home') ?>">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="profil">Orma</a>
+          <a class="nav-link text-dark" href="">Orma</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="news">News</a>
+          <a class="nav-link text-white" href="<?= base_url('news') ?>">News</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="layanan">Layanan</a>
+          <a class="nav-link text-white" href="<?= base_url('layanan') ?>">Layanan</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link text-white" href="faq">FAQ</a>
+          <a class="nav-link text-white" href="#">FAQ</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 
-<div class="container position-absolute text-center">
-  <h1 class="text-white fs-1">Start Your Actifity</h1>
-  <h2 class="text-white fs-3">Plan your actifity throught AMIKOM best student organizations </h2>
-  <p class="text-white mt-3 mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptatum perferendis est a rerum hic saepe, ad quos enim praesentium!</p>
-  <a href="" class="tombol-start text-dark text-decoration-none rounded-pill py-3 fs-5">Start</a>
+<div class="organisasi container">
+    <h1 class="fs-1 text-center text-light">BSO</h1>
+    <div class="row mt-4 justify-content-center">
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+            <img src="<?= base_url('img/bso/abbc.jpg') ?>" alt="abbc">
+            <div class="text-center mt-2">
+              <h6 class="fw-semibold">ABBC</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/bso/onegai.png') ?>" alt="onegai">
+            <div class="text-center mt-2">
+              <h6 class="fw-semibold">ONEGAI</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-6">
+        <a class="text-decoration-none text-dark" href="">
+          <div class="item">
+          <img src="<?= base_url('img/bso/afc.png') ?>" alt="afc">
+            <div class="text-center mt-2">
+              <h6 class="fw-semibold">AFC</h6>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
 </div>
 
 </section>

@@ -25,7 +25,7 @@
           <a class="nav-link text-white" aria-current="page" href="home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark" href="">Profil</a>
+          <a class="nav-link text-dark" href="">Orma</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-white" href="news">News</a>
@@ -42,10 +42,10 @@
 </nav>
 
 <div class="pilihan d-flex flex-row justify-content-center">
-    <a href="<?= base_url('profil/ukm') ?>" class="text-dark text-decoration-none rounded-pill py-2 fs-5">UKM</a>
-    <a href="" class="text-dark text-decoration-none rounded-pill py-2 fs-5">BSO</a>
-    <a href="" class="text-dark text-decoration-none rounded-pill py-2 fs-5">HIMPUNAN</a>
-    <a href="" class="text-dark text-decoration-none rounded-pill py-2 fs-5">KOMUNITAS</a>
+    <a href="<?= base_url('ukm') ?>" class="text-dark text-decoration-none rounded-pill py-2 fs-5">UKM</a>
+    <a href="<?= base_url('bso') ?>" class="text-dark text-decoration-none rounded-pill py-2 fs-5">BSO</a>
+    <a href="<?= base_url('himpunan') ?>" class="text-dark text-decoration-none rounded-pill py-2 fs-5">HIMPUNAN</a>
+    <a href="<?= base_url('komunitas') ?>" class="text-dark text-decoration-none rounded-pill py-2 fs-5">KOMUNITAS</a>
 </div>
 
 </section>

@@ -42,8 +42,24 @@ $routes->get('login/organisasi', 'Organisasi::login');
 $routes->post('loginorg', 'Organisasi::auth');
 
 $routes->get('profil', 'Profil::index');
-$routes->get('profil/ukm', 'Profil::ukm');
-$routes->get('profil/himpunan', 'Profil::himpunan');
+$routes->get('ukm', 'Profil::ukm');
+$routes->get('himpunan', 'Profil::himpunan');
+$routes->get('bso', 'Profil::bso');
+$routes->get('komunitas', 'Profil::komunitas');
+
+$routes->get('ukm/amcc', 'Ukm::amcc');
+$routes->get('ukm/aec', 'Ukm::aec');
+$routes->get('ukm/amo', 'Ukm::amo');
+$routes->get('ukm/koma', 'Ukm::koma');
+$routes->get('ukm/mayapala', 'Ukm::mayapala');
+$routes->get('ukm/ikna', 'Ukm::ikna');
+$routes->get('ukm/ukijasthis', 'Ukm::ukijasthis');
+$routes->get('ukm/taekwondo', 'Ukm::taekwondo');
+$routes->get('ukm/manggar', 'Ukm::manggar');
+$routes->get('ukm/fossil', 'Ukm::fossil');
+$routes->get('ukm/journal', 'Ukm::journal');
+$routes->get('ukm/kempo', 'Ukm::kempo');
+$routes->get('ukm/pencaksilat', 'Ukm::pencaksilat');
 
 $routes->get('news', 'News::index');
 
