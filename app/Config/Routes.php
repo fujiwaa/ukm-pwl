@@ -66,22 +66,21 @@ $routes->get('bso/abbc', 'Bso::abbc');
 $routes->get('bso/onegai', 'Bso::onegai');
 $routes->get('bso/afc', 'Bso::afc');
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+$routes->get('himpunan/himaditi', 'Himpunan::himaditi');
+$routes->get('himpunan/himasi', 'Himpunan::himasi');
+$routes->get('himpunan/himika', 'Himpunan::himika');
+$routes->get('himpunan/himmi', 'Himpunan::himmi');
+$routes->get('himpunan/himpwk', 'Himpunan::himpwk');
+$routes->get('himpunan/himti', 'Himpunan::himti');
+$routes->get('himpunan/himwira', 'Himpunan::himwira');
+$routes->get('himpunan/hmif', 'Himpunan::hmif');
+$routes->get('himpunan/hime', 'Himpunan::hime');
+$routes->get('himpunan/himaksi', 'Himpunan::himaksi');
+$routes->get('himpunan/himga', 'Himpunan::himga');
+$routes->get('himpunan/himtekk', 'Himpunan::himtekk');
+$routes->get('himpunan/himip', 'Himpunan::himip');
+$routes->get('himpunan/komahi', 'Himpunan::komahi');
+$routes->get('himpunan/pastuvena', 'Himpunan::pastuvena');
 
 $routes->get('komunitas/avc', 'Komunitas::avc');
 $routes->get('komunitas/asbc', 'Komunitas::asbc');
