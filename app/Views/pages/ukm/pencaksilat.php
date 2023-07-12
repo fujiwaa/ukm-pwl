@@ -48,18 +48,18 @@
     <div class="row mt-3">
         <div class="col-md-6">
             <div class="image-org text-center">
-                <img src="<?= base_url('img/ukm/amo.png') ?>" alt="amo">
+                <img src="<?= base_url('img/ukm/pencak-silat.png') ?>" alt="pencak silat">
                 <div class="text-center mt-2">
-                    <h6 class="mt-4 fs-2 fw-semibold">AMO</h6>
+                    <h6 class="mt-4 fs-2 fw-semibold">PENCAK SILAT</h6>
                 </div>
             </div>
         </div>
         <div class="col-md-6">
             <div class="desc-org">
-                <p>AMO adalah salah satu Unit Kegiatan Mahasiswa Universitas Amikom Yogyakarta yang terbentuk sejak tahun 2004 dengan arah gerak yang berfokus pada bidang musik dan event organizing. AMO terdiri atas 2 divisi yaitu Divisi Musik dan Event Organizer. AMO juga tergabung dalam Forum Komunikasi UKM Musik Yogyakarta (FKUKMMY).</p>
+                <p>Persaudaraan Setia Hati Terate adalah bela diri khas Indonesia yang berasal dari Madiun yang mengajarkan tata krama, kesopanan, berprilaku yang baik, saling membantu, menolong yang lemah dan melindungi diri dari kejahatan, Menjadi manusia luhur mengetahui benar dan salah. Persaudaraan Setia Hati Terate mengajarkan lima dasar ajaran yang harus di pegang teguh oleh anggotanya yaitu persaudaraan, olahraga, kesenian, beladiri dan kerohanian dengan lima dasar ini bertujuan untuk mempererat tali persaudaraan dengan menggunakan media olahraga kesenian bela diri bersama-sama sehingga sehat jiwa dan raga. Persaudaraan Setia Hati Terate atau Pencak Silat AMIKOM mulai berkiprah di Universitas AMIKOM Yogyakarta pada 2009.</p>
                 <div class="d-flex justify-content-center mt-4">
                     <h3>Basement 5</h3>
-                    <h3 class="ms-5">No. 17</h3>
+                    <h3 class="ms-5">No. 3</h3>
                 </div>  
                 <div class="contact text-center">
                     <a href="#"><i class="bi bi-instagram" style="font-size: 32px;"></i></a>

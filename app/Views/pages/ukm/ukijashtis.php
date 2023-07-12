@@ -48,18 +48,18 @@
     <div class="row mt-3">
         <div class="col-md-6">
             <div class="image-org text-center">
-                <img src="<?= base_url('img/ukm/amo.png') ?>" alt="amo">
+                <img src="<?= base_url('img/ukm/uki-jasthis.png') ?>" alt="uki jashtis">
                 <div class="text-center mt-2">
-                    <h6 class="mt-4 fs-2 fw-semibold">AMO</h6>
+                    <h6 class="mt-4 fs-2 fw-semibold">UKI JASHTIS</h6>
                 </div>
             </div>
         </div>
         <div class="col-md-6">
             <div class="desc-org">
-                <p>AMO adalah salah satu Unit Kegiatan Mahasiswa Universitas Amikom Yogyakarta yang terbentuk sejak tahun 2004 dengan arah gerak yang berfokus pada bidang musik dan event organizing. AMO terdiri atas 2 divisi yaitu Divisi Musik dan Event Organizer. AMO juga tergabung dalam Forum Komunikasi UKM Musik Yogyakarta (FKUKMMY).</p>
+                <p>UKI Jashtis adalah salah satu Unit Kegiatan Mahasiswa di Universitas Amikom Yogyakarta yang bergerak aktif dibidang dakwah kampus yang bertujuan untuk mensyiarkan Islam yang rahmatan lil 'alamin dikalangan masyarakat kampus. UKI Jashtis menjadi wadah bagi mahasiswa mulsim untuk mengembangkan minat bakatnya dibidang kerohanian islam agar kelak dapat bermanfaat bagi semua umat. Selain itu UKI Jashtis juga memiliki tujuan lain yaitu untuk mempererat ukhuwah islamiyah dikalangan mahasiswa.</p>
                 <div class="d-flex justify-content-center mt-4">
                     <h3>Basement 5</h3>
-                    <h3 class="ms-5">No. 17</h3>
+                    <h3 class="ms-5">No. 1</h3>
                 </div>  
                 <div class="contact text-center">
                     <a href="#"><i class="bi bi-instagram" style="font-size: 32px;"></i></a>

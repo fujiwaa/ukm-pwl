@@ -56,10 +56,10 @@
         </div>
         <div class="col-md-6">
             <div class="desc-org">
-                <p>AMO adalah salah satu Unit Kegiatan Mahasiswa Universitas Amikom Yogyakarta yang terbentuk sejak tahun 2004 dengan arah gerak yang berfokus pada bidang musik dan event organizing. AMO terdiri atas 2 divisi yaitu Divisi Musik dan Event Organizer. AMO juga tergabung dalam Forum Komunikasi UKM Musik Yogyakarta (FKUKMMY).</p>
+                <p>UKM FOSSIL - Free Open Source Software Interest League adalah sebuah sekumpulan mahasiswa Universitas AMIKOM Yogyakarta yang tertarik pada bidang Open Source Software digerakkan oleh para penggemar teknologi dan kontributor open-source, untuk membantu menjadi bagian dari ekosistem open-source dengan menyediakan pelatihan dan pengembangan keterampilan.</p>
                 <div class="d-flex justify-content-center mt-4">
                     <h3>Basement 5</h3>
-                    <h3 class="ms-5">No. 17</h3>
+                    <h3 class="ms-5">No. 7</h3>
                 </div>  
                 <div class="contact text-center">
                     <a href="#"><i class="bi bi-instagram" style="font-size: 32px;"></i></a>

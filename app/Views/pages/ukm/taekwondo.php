@@ -48,18 +48,18 @@
     <div class="row mt-3">
         <div class="col-md-6">
             <div class="image-org text-center">
-                <img src="<?= base_url('img/ukm/amo.png') ?>" alt="amo">
+                <img src="<?= base_url('img/ukm/tkd.png') ?>" alt="taekwondo">
                 <div class="text-center mt-2">
-                    <h6 class="mt-4 fs-2 fw-semibold">AMO</h6>
+                    <h6 class="mt-4 fs-2 fw-semibold">TAEKWONDO</h6>
                 </div>
             </div>
         </div>
         <div class="col-md-6">
             <div class="desc-org">
-                <p>AMO adalah salah satu Unit Kegiatan Mahasiswa Universitas Amikom Yogyakarta yang terbentuk sejak tahun 2004 dengan arah gerak yang berfokus pada bidang musik dan event organizing. AMO terdiri atas 2 divisi yaitu Divisi Musik dan Event Organizer. AMO juga tergabung dalam Forum Komunikasi UKM Musik Yogyakarta (FKUKMMY).</p>
+                <p>UKM taekwondo adalah salah satu lembaga mahasiswa Universitas AMIKOM di bidang olah raga bela diri. UKM taekwondo didirikan pada tanggal 12 april 1998 di Yogyakarta oleh Zamna Rofiq Zakaria. UKM Taekwondo Universitas AMIKOM telah banyak mengikuti berbagai ajang kopetisi baik tingkat nasional maupun internasional, dan sampai saat ini hasilnya cukup memuaskan. Untuk mengetahui prestasi –prestasi yang di raih dari UKM taekwondo dapat di lihat pada etalase kampus di gedung unit 2. Untuk saat ini beberapa dari atlet Taekwondo AMIKOM direkrut dari beberapa KONI Kabupaten diantaranya Gunung Kidul, Sleman, Kulon Progo, dan kota Jogja. UKM Taekwondo terus melatih atlet-atletnya agar bisa menjadi kebanggan kampus serta selalu terbuka menerima anggota baik mahasiswa kampus AMIKOM maupun dari luar. Hal ini berdasarkan dengan visi maupun misi UKM Taekwondo Universitas AMIKOM Yogyakarta.</p>
                 <div class="d-flex justify-content-center mt-4">
                     <h3>Basement 5</h3>
-                    <h3 class="ms-5">No. 17</h3>
+                    <h3 class="ms-5">No. 11</h3>
                 </div>  
                 <div class="contact text-center">
                     <a href="#"><i class="bi bi-instagram" style="font-size: 32px;"></i></a>
