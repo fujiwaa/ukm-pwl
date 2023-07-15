@@ -52,7 +52,7 @@
   <h1 class="text-white fs-1">Start Your Actifity</h1>
   <h2 class="text-white fs-3">Plan your actifity throught AMIKOM best student organizations </h2>
   <p class="text-white mt-3 mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptatum perferendis est a rerum hic saepe, ad quos enim praesentium!</p>
-  <a href="" class="tombol-start text-dark text-decoration-none rounded-pill py-3 fs-5">Start</a>
+  <a href="register/mahasiswa" class="tombol-start text-dark text-decoration-none rounded-pill py-3 fs-5">Start</a>
 </div>
 
 </section>

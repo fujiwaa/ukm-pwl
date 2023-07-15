@@ -31,10 +31,10 @@
           <a class="nav-link text-white" href="news">News</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">Layanan</a>
+          <a class="nav-link text-white" href="layanan">Layanan</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">FAQ</a>
+          <a class="nav-link text-white" href="faq">FAQ</a>
         </li>
       </ul>
     </div>

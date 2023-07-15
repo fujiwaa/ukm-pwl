@@ -89,6 +89,15 @@ $routes->get('komunitas/hexa', 'Komunitas::hexa');
 $routes->get('komunitas/pramuka', 'Komunitas::pramuka');
 
 $routes->get('news', 'News::index');
+$routes->post('news/store', 'News::store');
+$routes->post('news/update/(:num)', 'News::update/$1');
+$routes->get('news/edit/(:num)', 'News::edit/$1');
+$routes->get('news/delete/(:num)', 'News::delete/$1');
+
+$routes->get('layanan', 'Layanan::index');
+
+$routes->get('faq', 'Faq::index');
+
 
 
 /*

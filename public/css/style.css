@@ -120,6 +120,7 @@ ul {
   box-shadow: 3px 4px;
   color: #666;
 }
+
 .back {
   width: 38px;
 }
@@ -137,6 +138,34 @@ ul {
 .card-news {
   width: 80%;
   margin-top: 20px;
+}
+
+.card-delete {
+  margin-top: 160px;
+  margin-left: 30px;
+}
+
+.layanan {
+  width: 100%;
+  margin-top: 150px;
+}
+
+.faq {
+  width: 100%;
+  margin-top: 150px;
+}
+
+.faq .btn {
+  background-color: #ffffff;
+  width: 80%;
+  padding: 30px 100px;
+  border-color: transparent;
+  color: black;
+  margin-bottom: 60px;
+  font-size: 20px;
+  font-weight: 500;
+  box-shadow: 0 3px #999;
+  border-radius: 25px;
 }
 
 .form-login .mah {

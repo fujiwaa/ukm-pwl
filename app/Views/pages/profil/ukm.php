@@ -29,10 +29,10 @@
           <a class="nav-link text-white" href="<?= base_url('news') ?>">News</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">Layanan</a>
+          <a class="nav-link text-white" href="<?= base_url('layanan') ?>">Layanan</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">FAQ</a>
+          <a class="nav-link text-white" href="<?= base_url('faq') ?>">FAQ</a>
         </li>
       </ul>
     </div>
